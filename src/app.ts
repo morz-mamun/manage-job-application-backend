@@ -5,7 +5,6 @@ import compression from "compression";
 import morgan from "morgan";
 
 import { env, isDev } from "@config/env";
-// import { clerkAuth } from '@middleware/auth'
 import { globalRateLimiter } from "@middleware/rateLimiter";
 import { errorHandler, notFoundHandler } from "@middleware/errorHandler";
 import { morganStream } from "@utils/logger";
